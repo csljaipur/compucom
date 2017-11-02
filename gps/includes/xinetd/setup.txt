@@ -1,0 +1,40 @@
+http://www.yolinux.com/TUTORIALS/LinuxTutorialNetworking.html#INET
+
+iptables -A INPUT -p tcp --dport 8742 -j ACCEPT
+#iptables -A INPUT -p udp --dport 8742 -j ACCEPT
+/sbin/service iptables save
+
+echo $'paralleltrack\t8742/tcp\t\t\t# Parallel Track' >> /etc/services
+
+#echo $'paralleltrack\t8742/udp\t\t\t# Parallel Track' >> /etc/services
+
+touch /etc/xinetd.d/paralleltrack
+
+/etc/xinetd.d/paralleltrack
+---------------------------
+
+service paralleltrack
+{
+    socket_type    = stream
+    protocol       = tcp
+    wait           = no
+    user           = paralleltrack
+    server         = /home/paralleltrack/domains/www.paralleltrack.co.uk/includes/xinetd/xinetd_pt.php
+}
+
+#service paralleltrack
+#{
+#    socket_type    = dgram
+#    protocol       = udp
+#    wait           = yes
+#    user           = paralleltrack
+#    server         = /home/paralleltrack/domains/www.paralleltrack.co.uk/includes/xinetd/xinetd_pt.php
+#}
+
+
+service xinetd restart
+
+755 /home/paralleltrack/domains/www.paralleltrack.co.uk/includes/xinetd/xinetd_pt.php
+
+telnet log.paralleltrack.co.uk 8742
+
