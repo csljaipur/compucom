@@ -1,0 +1,2 @@
+gpstracker1.1.apk - This is the working apk
+gpstracker1.2apk - In this if user disable the tracking button, then also he will be tracked.
