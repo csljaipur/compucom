@@ -1,0 +1,7 @@
+#Options +Indexes
+DirectoryIndex index.php index.html index.htm
+
+#RewriteEngine On
+#RewriteRule log/ index.php?p=log [QSA,L]
+
+#allow from all
