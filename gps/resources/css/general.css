@@ -1,0 +1,838 @@
+/* http://www.hypergurl.com/colormatch.php?color=2158CE */
+/* http://developer.yahoo.com/yui/fonts/ */
+
+/* ----- Main ----- */
+
+body {
+	background-color: #ffffff; /*#D9C777*/
+}
+
+#doc2 {
+	margin-top: 10px;
+	max-width: 950px;
+}
+
+a {
+	color: #3f5c7d;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+p {
+	margin-bottom: 0.8em;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+
+/* ----- Standard ----- */
+
+.errormsg {
+	background-color: #ffbbbd;
+	font-weight: bold;
+}
+
+.successmsg {
+	background-color: #fffcac;
+	font-weight: bold;
+}
+
+#page-home .yui-ge, #page-contact, #page-trackbox, #page-login, #page-track_config, #page-track_config_addedit, #page-track_live .yui-ge, #page-track_history .yui-ge, #page-trackbox_software, #page-user_profile, #page-user_profile_edit, #page-pda_track, #page-trackbox_purchase, #page-trackbox_purchase_custom, #page-trackbox_purchase_license, #page-systems_integrators, #page-payment, #page-admin_user_account, #page-admin_user_track_config, #page-admin_user_track_config_add, #page-admin_user_track_config_addedit, #page-admin_user_addedit, #page-manage {
+	margin-top: 10px;
+}
+
+.pagenav a {
+	text-decoration: none;
+	line-height: 1.8em;
+}
+
+.pagenav, .pagenav .left, .pagenav .right {
+	height: 1.8em;
+}
+
+.pagenav {
+	padding: 5px;
+	background-color: #e5e5e5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.pagenav .left {
+	float: left;
+}
+
+.pagenav .right {
+	float: right;
+}
+
+.pagenav a:link, .pagenav a:visited {
+	color: #000000;
+}
+
+.pagenav a:hover, .pagenav a:active {
+	color: #3f5c7d;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Map */
+
+#page-track_live #map, #page-track_history #map {
+	width: 705px;
+	height: 510px;
+}
+
+.baloonhtml {
+	font-size: 10pt;
+	line-height: 12pt;
+}
+
+.baloonhtml .baloontitle {
+	font-weight: bold;
+	width: 60px;
+	margin-right: 5px;
+	float: left;
+}
+
+.baloonhtml br {
+	clear: left;
+}
+
+/* Side panel */
+
+.sidepanelbox {
+	margin-top: 10px;
+	padding: 5px;
+	background-color: #a9c6ec;
+}
+
+.sidepanelbox:first-child {
+	margin-top: 0px;
+}
+
+.sidepanelboxtitle {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.sidepanelbox .sidepanelboxcontent {
+	padding: 5px;
+	border: 1px solid #000000;
+}
+
+.sidepanelbox .sidepanelboxcontent .inputxttitle {
+	display: block;
+	font-size: 85%;
+}
+
+.sidepanelbox .sidepanelboxcontent .inputxt {
+	width: 98%;
+}
+
+.sidepanelbox .sidepanelboxcontent .errormsg {
+	margin-bottom: 5px;
+}
+
+.sidepanelbox .sidepanelboxcontent .tandcs {
+	font-size: 85%;
+	margin-bottom: 5px;
+}
+
+.sidepanelbox .sidepanelboxcontent .decline {
+	font-size: 77%;
+}
+
+.sidepanelbox .sidepanelboxcontent .errormsg {
+	padding: 5px;
+}
+
+.sidepanelbox .sidepanelboxcontent .selectunselectall {
+	background-color: #e5e5e5;
+	padding: 3px;
+	text-align: center;
+}
+
+.sidepanelbox .sidepanelboxcontent .selectunselectall a:link, .sidepanelbox .sidepanelboxcontent .selectunselectall a:visited {
+	color: #000000;
+}
+
+.sidepanelbox .sidepanelboxcontent .selectunselectall a:hover, .sidepanelbox .sidepanelboxcontent .selectunselectall a:active {
+	color: #3f5c7d;
+}
+
+.sidepanelbox .sidepanelboxcontent .addunits {
+	background-color: #e5e5e5;
+	padding: 3px;
+	text-align: center;
+}
+
+
+/* ----- Header ----- */
+
+#doc2 #hd #logo, #doc2 #hd #header_link {
+	height: 80px;
+}
+
+#doc2 #hd #header_link {
+	display: block;
+	width: 180px;
+}
+
+
+/* ----- Header Nav ----- */
+
+#doc2 #hd .nav-main, #doc2 #hd .nav-main nonselected, #doc2 #hd .nav-main a {
+	background-color: #153782;
+}
+
+#doc2 #hd .nav-secondary, #doc2 #hd .nav-secondary nonselected, #doc2 #hd .nav-secondary a {
+	background-color: #2750a8; /*#1b48a8*/
+}
+
+#doc2 #hd .nav-main a:hover, #doc2 #hd .nav-main .selected {
+	color: #153782;
+}
+
+#doc2 #hd .nav-secondary a:hover, #doc2 #hd .nav-secondary .selected {
+	color: #2750a8;
+}
+
+#doc2 #hd .nav-secondary {
+	clear: left;
+}
+
+#doc2 #hd .nav {
+	border-top: 1px solid #ffffff;
+}
+
+#doc2 #hd .nav, #hd .nav a {
+	height: 24px;
+	line-height: 24px;
+}
+
+#doc2 #hd .nav a {
+	display: block;
+	float: left;
+	width: 120px;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#doc2 #hd .nav-main a:hover, #doc2 #hd .nav-secondary a:hover, #doc2 #hd .nav .selected {
+	background-color: #ffffff;
+}
+
+
+/* ----- Header - User Override ----- */
+
+#doc2 #hd .user_override {
+	border-top: 1px solid #ffffff;
+	background-color: #153782;
+	text-align: right;
+	padding-right: 10px;
+	color: #ffffff;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 8pt;
+}
+
+#doc2 #hd .user_override a {
+	color: #ffffff;
+}
+
+
+/* ----- Body ----- */
+
+#doc2 #bd {
+	clear: left;
+	background-color: #ffffff;
+	height: 400px;
+}
+
+.admintitlebar {
+	background-color: #2750a8;
+	margin-bottom: 1px;
+	color: #ffffff;
+	font-size: 11pt;
+	font-weight: bold;
+	padding: 1px;
+	padding-left: 4px;
+}
+
+/* ----- Login ----- */
+
+#page-login .errormsg {
+	padding: 5px;
+}
+
+#page-login .loginbox {
+	margin-top: 100px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page-login .loginbox .loginboxcontent {
+	padding: 5px;
+	background-color: #a9c6ec;
+}
+
+#page-login .loginbox .loginboxcontent .loginboxtitle {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+#page-login .loginbox .loginboxcontent .loginboxcontentinner {
+	padding: 5px;
+	border: 1px solid #000000;
+}
+
+#page-login .errormsg, #page-login .loginbox .loginboxcontent .loginboxcontentinner .autologin, #page-login .loginbox .loginboxcontent .loginboxcontentinner .inputtxt {
+	margin-bottom: 5px;
+}
+
+#page-login .loginbox .loginboxcontent .loginboxcontentinner .inputtxt {
+	display: block;
+	width: 99%;
+}
+
+#page-login .loginbox .loginboxcontent .loginboxcontentinner .inputxttitle {
+	display: block;
+}
+
+
+/* ----- Main Table ----- */
+
+.maintable {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+
+.maintable table {
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+.maintable table th, .maintable table td {
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	padding: 5px;
+}
+
+.maintable table th {
+	background-color: #153782;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.maintable .navigation {
+	background-color: #2750a8;
+	padding-top: 2px;
+	height: 24px;
+	border-right: 1px solid #000000;
+	color: #ffffff;
+}
+
+.maintable .navigation:first-child {
+	border-bottom-width: 0px;
+}
+
+.maintable table td {
+	background-color: #f0f8ff;
+}
+
+.maintable table .norecords {
+	line-height: 200px;
+	text-align: center;
+}
+
+.maintable .navigation .nav-paging {
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.maintable .navigation .nav-left, .maintable .navigation .nav-right {
+	width: 100px;
+}
+
+.maintable .navigation .nav-left {
+	float: left;
+}
+
+.maintable .navigation .nav-right {
+	float: right;
+	text-align: right;
+	margin-right: 2px;
+}
+
+.maintable .navigation .nav-paging .firstprev, .maintable .navigation .nextlast {
+	width: 120px;
+}
+
+.maintable .navigation .nav-paging .firstprev {
+	float: left;
+}
+
+.maintable .navigation .nav-paging .nextlast {
+	float: right;
+	text-align: right;
+}
+
+.maintable .navigation .nav-paging .currpage {
+	float: left;
+	width: 120px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.maintable table .titles a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.maintable table .col-button {
+	width: 100px;
+	text-align: center;
+	padding: 0px;
+	padding-top: 3px;
+	vertical-align: center;
+	height: 25px;
+}
+
+.maintable .errormsg {
+	background-color: #fd0006;
+	padding: 5px;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+
+/* ----- Home ----- */
+
+/* Main panel */
+
+#page-home .mainpanel {
+	border: 1px dashed #000000;
+}
+
+#page-home .mainpanel .maincontent {
+	margin: 5px;
+	font-size: 122%;
+}
+
+#page-home h2 {
+	font-size: 107%;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+}
+
+#page-home ul li {
+	margin-left: 2em;
+	margin-bottom: 1em;
+	list-style-type: circle;
+}
+
+#page-home .screenshotimg {
+	padding: 2px;
+	border: 1px solid #153782;
+	margin: 1px;
+}
+
+#page-home .conditions p {
+	font-size: 77%;
+}
+
+/* Side panel */
+
+#page-home .sidepanelbox .sidepanelboxcontent .inputxt, #page-home .sidepanelbox .sidepanelboxcontent .autologin {
+	margin-bottom: 5px;
+}
+
+#page-home .sidepanelbox .sidepanelboxcontent .logindemo {
+	color: #000000;
+	text-decoration: underline;
+}
+
+
+/* ----- Contact ----- */
+
+#page-contact .inputxttitle {
+	font-size: 85%;
+	display: block;
+}
+
+#page-contact .inputxt {
+	width: 40%;
+}
+
+#page-contact .errormsg {
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#page-contact .contactfooter p {
+margin-top: 20px;
+	font-size: 77%;
+}
+
+
+/* ----- Track Config ----- */
+
+#page-track_config .infomsg {
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#page-track_config .addnew {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+#page-track_config .tblunit {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#page-track_config .tblunit td {
+	border: 1px solid #d8d8d8;
+	padding: 5px;
+}
+
+#page-track_config .tblunit .icon {
+	width: 48px;
+}
+
+#page-track_config .tblunit .edit {
+	width: 120px;
+	text-align: center;
+}
+
+#page-track_config .errormsg {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+/* ----- Track Config Add/Edit ----- */
+
+#page-track_config_addedit label {
+	display: block;
+}
+
+#page-track_config_addedit .row, #page-track_config_addedit .rownopadding {
+	clear: left;
+}
+
+#page-track_config_addedit .row, #page-track_config_addedit .icongroup {
+	margin-bottom: 15px;
+}
+
+#page-track_config_addedit .inputtxt {
+	width: 40%;
+}
+
+#page-track_config_addedit .icongroup, #page-track_config_addedit .colorgroup {
+	width: 48px;
+	margin-right: 30px;
+	float: left;
+}
+
+#page-track_config_addedit .iconselect {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#page-track_config_addedit .colorsample {
+	margin-top: 5px;
+}
+
+#page-track_config_addedit .clear {
+	clear: left;
+}
+
+#page-track_config_addedit .errormsg {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#page-track_config_addedit .colorselect {
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#page-track_config_addedit .pagenav input {
+	width: 6em;
+}
+
+
+/* ----- Track Live ----- */
+
+#page-track_live .sidepanelbox .sidepanelboxcontent .iconimg {
+	width: 24;
+	height: 24;
+	float: left;
+	margin-right: 5px;
+}
+
+
+/* ----- Track History ----- */
+
+#page-track_history .selectunit {
+	width: 100%;
+}
+
+#page-track_history .sidepanelbox .sidepanelboxcontent ul li {
+	margin-left: 2em;
+	list-style-type: square;
+}
+
+#page-track_history .sidepanelbox .calendar {
+	/* border-collapse: collapse; */
+	font-family: sans-serif;
+	font-size: 0.9em;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+#page-track_history .sidepanelbox .calendar a:link, #page-track_history .sidepanelbox .calendar a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+#page-track_history .sidepanelbox .calendar #page-track_history .sidepanelbox .monthyearselection, #page-track_history .sidepanelbox .calendar .monthprevnextselection, #page-track_history .sidepanelbox .calendar .dayname {
+	background-color: #f0f0f0;
+}
+
+#page-track_history .sidepanelbox .calendar .dayselected, #page-track_history .sidepanelbox .calendar .day a:hover {
+	background-color: #faca7e;
+}
+
+#page-track_history .sidepanelbox .calendar .historyforday {
+	background-color: #fae2bb;
+}
+
+#page-track_history .sidepanelbox .calendar .monthprevnextselection a:hover {
+	text-decoration: underline;
+}
+
+#page-track_history .sidepanelbox .monthyearselection {
+	padding: 5px;
+}
+
+#page-track_history .sidepanelbox .calendar .monthprevnextselection {
+	padding: 2px;
+}
+
+#page-track_history .sidepanelbox .calendar .dayname {
+	font-weight: bold;
+}
+
+#page-track_history .sidepanelbox .calendar .day, #page-track_history .sidepanelbox .calendar .dayname {
+	text-align: center;
+}
+
+#page-track_history .sidepanelbox .calendar .day a:link, #page-track_history .sidepanelbox .day a:visited {
+	display: block;
+}
+
+#page-track_history .sidepanelbox .calendar .day a:hover {
+	text-decoration: underline;
+}
+
+#page-track_history .sidepanelbox .calendar .day, #page-track_history .sidepanelbox .calendar .dayname {
+	padding: 2px;
+}
+
+#page-track_history .sidepanelbox .calendar .currentday {
+	font-weight: bold;
+}
+
+#page-track_history .sidepanelbox .calendar td {
+	border: 1px solid #c1c1c1;
+}
+
+.sidepanelbox .sidepanelboxcontent .nohistoryavail {
+	background-color: #e5e5e5;
+	padding: 3px;
+	text-align: center;
+}
+
+
+/* ----- User Profile - Edit ----- */
+
+#page-user_profile ul li {
+	margin-left: 2em;
+	margin-bottom: 1em;
+	list-style-type: circle;
+}
+
+
+/* ----- Track Config Add/Edit ----- */
+
+#page-user_profile_edit label {
+	display: block;
+}
+
+#page-user_profile_edit .row, #page-user_profile_edit .rownopadding {
+	clear: left;
+}
+
+#page-user_profile_edit .row {
+	margin-bottom: 15px;
+}
+
+#page-user_profile_edit .inputtxt {
+	width: 40%;
+}
+
+#page-user_profile_edit .clear {
+	clear: left;
+}
+
+#page-user_profile_edit .errormsg, #page-user_profile_edit .successmsg {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#page-user_profile_edit .pagenav input {
+	width: 6em;
+}
+
+
+/* ----- Admin - User Accounts ----- */
+
+#page-admin_user_account .maintable .col-name {
+}
+
+#page-admin_user_account .maintable .col-username {
+	width: 150px;
+}
+
+#page-admin_user_account .maintable .col-registered {
+	width: 125px;
+
+}
+
+#page-admin_user_account .maintable .col-lastlogin {
+	width: 125px;
+
+}
+
+#page-admin_user_account .maintable .col-usergroup {
+	width: 80px;
+
+}
+
+#page-admin_user_account .maintable .col-button {
+	width: 215px;
+}
+
+
+/* ----- Admin - User Account Trackers ----- */
+
+#page-admin_user_track_config .maintable .col-name {
+}
+
+#page-admin_user_track_config .maintable .col-imei {
+	width: 120px;
+}
+
+#page-admin_user_track_config .maintable .col-posdata {
+	width: 60px;
+}
+
+#page-admin_user_track_config .maintable .col-button {
+	width: 100px;
+}
+
+
+/* ----- Admin - User Account Trackers Add/Edit ----- */
+
+#page-admin_user_track_config_addedit label {
+	display: block;
+}
+
+#page-admin_user_track_config_addedit .row, #page-admin_user_track_config_addedit .rownopadding {
+	clear: left;
+}
+
+#page-admin_user_track_config_addedit .row {
+	margin-bottom: 15px;
+}
+
+#page-admin_user_track_config_addedit .inputtxt {
+	width: 40%;
+}
+
+#page-admin_user_track_config_addedit .clear {
+	clear: left;
+}
+
+#page-admin_user_track_config_addedit .errormsg {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+
+/* ----- Admin - User Account Add/Edit ----- */
+
+#page-admin_user_addedit label {
+	display: block;
+}
+
+#page-admin_user_addedit .row, #page-admin_user_addedit .rownopadding {
+	clear: left;
+}
+
+#page-admin_user_addedit .row {
+	margin-bottom: 15px;
+}
+
+#page-admin_user_addedit .inputtxt {
+	width: 40%;
+}
+
+#page-admin_user_addedit .clear {
+	clear: left;
+}
+
+#page-admin_user_addedit .errormsg, #page-admin_user_addedit .successmsg {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
