@@ -10,3 +10,4 @@ Select * from pt_position_unreguser where user_entry = '9785643461'
 INSERT INTO `pt_position_unreguser`(`user_entry`, `datetime`, `datetime_received`, `lat`, `lon`, `alt`, `deg`, `speed_km`, `speed_kn`, `sattotal`, `fixtype`, `raw_input`, `hash`) VALUES ('9785643461','2016-09-12 15:50:47','2016-09-12 15:50:47',26.7891074,75.829441,0,0,0,0,0,3,'IT Park Rd, Sitapura Industrial Area, Sitapura, Jaipur, Rajasthan 302022, India',0)
 Select * from pt_position_unreguser where user_entry = '9785643461'
 INSERT INTO `pt_position_unreguser`(`user_entry`, `datetime`, `datetime_received`, `lat`, `lon`, `alt`, `deg`, `speed_km`, `speed_kn`, `sattotal`, `fixtype`, `raw_input`, `hash`) VALUES ('9785643461','2016-09-12 16:01:49','2016-09-12 16:01:49',26.7891143,75.8294409,0,0,0,0,0,3,'IT Park Rd, Sitapura Industrial Area, Sitapura, Jaipur, Rajasthan 302022, India',0)
+Select * from pt_position_unreguser where user_entry = '9785643461'
