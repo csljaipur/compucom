@@ -303,7 +303,7 @@ table tr:hover td{
 <body>
  <table width="98%" border="1" bgcolor="#F00FFF" style="margin-top:0px;">
  	<tr><td id="header_link" height="60px;" style="background-image:url(includes/pages/logo.jpg); background-repeat:no-repeat"  onclick='gohome()'></td>
-		<td colspan="3" height="60px;" style="background-image:url(includes/pages/appname.jpg); background-repeat:no-repeat" ></td>
+		<td colspan="4" height="60px;" style="background-image:url(includes/pages/appname.jpg); background-repeat:no-repeat" ></td>
 	</tr>
  	<tr  height="22px;">
 		<td width="16%" id="pageheading" align="center" >Last Active Report</td>

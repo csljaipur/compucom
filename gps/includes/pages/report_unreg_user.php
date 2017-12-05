@@ -422,18 +422,17 @@ table tr:hover td{
 
 <body>
  <table width="98%" border="1" bgcolor="#F00FFF" style="margin-top:0px;">
- 	<tr><td id="header_link" height="60px;" style="background-image:url(includes/pages/logo.jpg); background-repeat:no-repeat"  onclick='gohome()'></td>
-		<td colspan="3" height="60px;" style="background-image:url(includes/pages/appname.jpg); background-repeat:no-repeat" ></td>
-
-	</tr>
+	<tr>
+		<td width="15%" id="header_link" height="60px;" style="background-image:url(includes/pages/logo.jpg); background-repeat:no-repeat"  onclick='gohome()'></td>
+		<td width="70%" style="background-image:url(includes/pages/appname.jpg); background-repeat:no-repeat" ></td> 
+		<td width="15%" ></td>
  	<tr  height="22px;">
-		<td width="80%" id="pageheading" align="center" >Unregister User Report Logged in to System</td>
-		<td id="td_back" width="6%"><a onclick="goBack()">BACK</a></td>
+		<td colspan="2"   id="pageheading" align="center" >Unregister User Report Logged in to System</td>
+		<td width="15%"   id="td_back" width="6%"><a onclick="goBack()">BACK</a></td>
+	</tr>		
 	</tr>
-<!--	<tr>	
-		<td colspan="2" width="100%" id="registermessage"></td>
-	</tr>-->
 </table>	
+	
 <div id="loadUsers">
 <?php include("getUnregUsers.php"); ?>
 </div>
